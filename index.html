@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery First Project</title>
+    <!--css link-->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!--navbar start here-->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto">
+            <div class="flex justify-between flex-col md:flex-row  py-2">
+                <div class="flex justify-between px-5 title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                    <div class="flex items-center">
+                        <h1 class="text-xl text-blue-700">JQUERY</h1>
+                    </div>
+                    <div>
+                        <button id="menu-btn" type="button"
+                            class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base md:hidden">
+                            <img src="/img/menu.svg" class="h-6 w-6 items-center" alt="">
+                        </button>
+                        <button id="close-btn" type="button"
+                            class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base hidden">
+                            <img src="/img/close.svg" class="h-6 w-6 items-center" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="flex md:inline-flex gap-8 items-center flex-col md:flex-row py-1 hidden" id="nav-item">
+                    <a class="hover:text-gray-900 font-semibold">Home</a>
+                    <a class="hover:text-gray-900 font-semibold">Features</a>
+                    <a class="hover:text-gray-900 font-semibold">About Us</a>
+                    <a class="hover:text-gray-900 font-semibold">Contact</a>
+                    <a class=" font-semibold hover:text-white  hover:bg-indigo-600 px-3 py-1 rounded-md ">More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <!--navbar end here-->
+
+    <!--script js link-->
+    <script src="/script.js"></script>
+</body>
+
+</html>
